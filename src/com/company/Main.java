@@ -42,7 +42,7 @@ class Abiturient{
 
     public void setName(String name) {
         if(name.isEmpty()){
-            System.out.println("Некорректный ввод);
+            System.out.println("Некорректный ввод");
         }
         else {
             this.name = name;
